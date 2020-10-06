@@ -21,7 +21,7 @@ files: [
       # Source files filter
       # e.g. "/resources/en/*.json"
       #
-      "source": "/src/locale/messages.*.xlf",
+      "source": "/src/locale/messages.xlf",
 
       #
       # Where translations will be placed
