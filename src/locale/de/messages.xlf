@@ -8,7 +8,7 @@
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">9</context>
         </context-group>
-        <target state="final">German title</target>
+        <target state="final">Titel mit manueller ID</target>
       </trans-unit>
       <trans-unit id="main.hello" datatype="html">
         <source>Hello <x id="INTERPOLATION" equiv-text="{{name}}"/>!</source>
