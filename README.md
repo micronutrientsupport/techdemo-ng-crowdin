@@ -1,10 +1,23 @@
-# AngularLocalizationDemo
+# Readme
 
-This is a demo code for the tutorial:[How to translate Angular apps: @angular/localize and xlf](https://www.codeandweb.com/babeledit/tutorials/how-to-translate-your-angular9-app-with-xlf-files).
+Localise app
 
-The tutorial explains all steps to start translating your app:
+```bash
+ng build --prod --localize
+```
 
-- Translate your Angular application with @angular/localize
-- How to edit xliff (xlf) files easily with babeledit
-- Use ICU syntax to localize complex messages
-- How to simplify your workflow with BabelEdit
+Test locally using selected language
+
+```bash
+ng serve --configuration=de --port 4201
+ng serve --configuration=fr --port 42012
+```
+
+Notes:
+
+When creating a new language source file (*.XLF) it does not auto-add the `<target>` tag. e.g.:
+
+```html
+<source>Title with manual ID</source>
+<target>french id</target>
+```

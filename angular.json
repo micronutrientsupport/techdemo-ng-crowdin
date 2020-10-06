@@ -6,10 +6,11 @@
     "angular-localization-demo": {
       "projectType": "application",
       "i18n": {
-         "sourceLocale": "en",
-         "locales": {
-             "de": "src/locale/messages.de.xlf"
-         }
+        "sourceLocale": "en",
+        "locales": {
+          "de": "src/locale/messages.de.xlf",
+          "fr": "src/locale/messages.fr.xlf"
+        }
       },
       "schematics": {
         "@schematics/angular:component": {
@@ -40,20 +41,22 @@
           },
           "configurations": {
             "de": {
-                "localize": [ "de" ],
-                "aot": true
+              "localize": ["de"],
+              "aot": true
             },
             "en": {
-                "localize": [ "en" ],
-                "aot": true
+              "localize": ["en"],
+              "aot": true
+            },
+            "fr": {
+              "localize": ["fr"],
+              "aot": true
             },
             "production": {
-              "fileReplacements": [
-                {
-                  "replace": "src/environments/environment.ts",
-                  "with": "src/environments/environment.prod.ts"
-                }
-              ],
+              "fileReplacements": [{
+                "replace": "src/environments/environment.ts",
+                "with": "src/environments/environment.prod.ts"
+              }],
               "localize": true,
               "aot": true,
               "i18nMissingTranslation": "error",
@@ -65,8 +68,7 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
-              "budgets": [
-                {
+              "budgets": [{
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
@@ -88,13 +90,16 @@
           "configurations": {
             "production": {
               "browserTarget": "angular-localization-demo:build:production"
-              },
-              "de": {
-               "browserTarget": "angular-localization-demo:build:de"
-           },
-           "en": {
-            "browserTarget": "angular-localization-demo:build:en"
-          }
+            },
+            "de": {
+              "browserTarget": "angular-localization-demo:build:de"
+            },
+            "en": {
+              "browserTarget": "angular-localization-demo:build:en"
+            },
+            "fr": {
+              "browserTarget": "angular-localization-demo:build:fr"
+            }
 
           }
         },
@@ -147,6 +152,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "angular-localization-demo"
 }
