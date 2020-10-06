@@ -2,7 +2,7 @@
 
 Localise app
 
-```bash
+```bashchore:chore
 ng build --prod --localize
 ```
 
