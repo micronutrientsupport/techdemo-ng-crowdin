@@ -8,8 +8,8 @@
       "i18n": {
         "sourceLocale": "en",
         "locales": {
-          "de": "src/locale/de/messages.de.xlf",
-          "fr": "src/locale/fr/messages.fr.xlf"
+          "de": "src/locale/de/messages.xlf",
+          "fr": "src/locale/fr/messages.xlf"
         }
       },
       "schematics": {
