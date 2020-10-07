@@ -10,7 +10,7 @@
         </context-group>
         <target state="final">Titel mit manueller ID</target>
       </trans-unit>
-      <trans-unit id="2d3ddaf897b00c0eca2bf81486a7ff57ddc788cb" datatype="html" approved="yes">
+      <trans-unit id="2d3ddaf897b00c0eca2bf81486a7ff57ddc788cb" datatype="html">
         <source>Hello World!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
@@ -18,7 +18,7 @@
         </context-group>
         <note priority="1" from="description"> Short sentence welcoming to the page</note>
         <note priority="1" from="meaning">Page subheading </note>
-        <target state="final">Hallo Welt!</target>
+        <target state="translated">Hallo Welgdfgdfgdft! g!</target>
       </trans-unit>
       <trans-unit id="main.hello" datatype="html">
         <source>Hello <x id="INTERPOLATION" equiv-text="{{name}}"/>!</source>
@@ -27,15 +27,15 @@
           <context context-type="linenumber">26</context>
         </context-group>
         <note priority="1" from="description">Welcome message.</note>
-        <target state="needs-translation">Hello <x id="INTERPOLATION" equiv-text="{{name}}"/>!</target>
+        <target state="translated">hdsjfppjdsfs</target>
       </trans-unit>
-      <trans-unit id="icu.plural" datatype="html">
+      <trans-unit id="icu.plural" datatype="html" approved="yes">
         <source>There <x id="ICU" equiv-text="{counter, plural, =0 {...} one {...} other {...}}"/> in the basket.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
           <context context-type="linenumber">31</context>
         </context-group>
-        <target state="needs-translation">There <x id="ICU" equiv-text="{counter, plural, =0 {...} one {...} other {...}}"/> in the basket.</target>
+        <target state="final">woof</target>
       </trans-unit>
       <trans-unit id="8156d7011b48a8657895605214cb13185a1498f3" datatype="html">
         <source>{VAR_PLURAL, plural, =0 {are no apples} one {is one apple} other {are <x id="INTERPOLATION" equiv-text="{{counter}}"/> apples} }</source>
