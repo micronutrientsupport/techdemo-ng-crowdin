@@ -6,15 +6,25 @@
         <source>Title with manual ID</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">9</context>
+          <context context-type="linenumber">20</context>
         </context-group>
         <target state="final">Titel mit manueller ID</target>
+      </trans-unit>
+      <trans-unit id="2d3ddaf897b00c0eca2bf81486a7ff57ddc788cb" datatype="html">
+        <source>Hello World!</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description"> Short sentence welcoming to the page</note>
+        <note priority="1" from="meaning">Page subheading </note>
+        <target state="needs-translation">Hello World!</target>
       </trans-unit>
       <trans-unit id="main.hello" datatype="html">
         <source>Hello <x id="INTERPOLATION" equiv-text="{{name}}"/>!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">12</context>
+          <context context-type="linenumber">26</context>
         </context-group>
         <note priority="1" from="description">Welcome message.</note>
         <target state="needs-translation">Hello <x id="INTERPOLATION" equiv-text="{{name}}"/>!</target>
@@ -23,7 +33,7 @@
         <source>There <x id="ICU" equiv-text="{counter, plural, =0 {...} one {...} other {...}}"/> in the basket.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">31</context>
         </context-group>
         <target state="needs-translation">There <x id="ICU" equiv-text="{counter, plural, =0 {...} one {...} other {...}}"/> in the basket.</target>
       </trans-unit>
@@ -31,7 +41,7 @@
         <source>{VAR_PLURAL, plural, =0 {are no apples} one {is one apple} other {are <x id="INTERPOLATION" equiv-text="{{counter}}"/> apples} }</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">15</context>
+          <context context-type="linenumber">31</context>
         </context-group>
         <target state="needs-translation">{VAR_PLURAL, plural, =0 {are no apples} one {is one apple} other {are <x id="INTERPOLATION" equiv-text="{{counter}}"/> apples} }</target>
       </trans-unit>
@@ -39,7 +49,7 @@
         <source>There is <x id="ICU" equiv-text="{fruit, select, apple {...} pear {...}}"/> in the basket.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">24</context>
+          <context context-type="linenumber">40</context>
         </context-group>
         <target state="needs-translation">There is <x id="ICU" equiv-text="{fruit, select, apple {...} pear {...}}"/> in the basket.</target>
       </trans-unit>
@@ -47,27 +57,27 @@
         <source>{VAR_SELECT, select, apple {one apple} pear {one pear} }</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">24</context>
+          <context context-type="linenumber">40</context>
         </context-group>
         <target state="needs-translation">{VAR_SELECT, select, apple {one apple} pear {one pear} }</target>
       </trans-unit>
       <trans-unit id="icu.combined" datatype="html">
         <source>There
             <x id="ICU" equiv-text="{counter, plural, =0 {...} one {...} other {...}}"/>
-        in the basket.</source>
+            in the basket.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">30</context>
+          <context context-type="linenumber">46</context>
         </context-group>
         <target state="needs-translation">There
             <x id="ICU" equiv-text="{counter, plural, =0 {...} one {...} other {...}}"/>
-        in the basket.</target>
+            in the basket.</target>
       </trans-unit>
       <trans-unit id="7d02d81856a1fe4c62475bd2705871de7b836dca" datatype="html">
         <source>{VAR_PLURAL, plural, =0 {are no {VAR_SELECT, select, apple {apples} pear {pears} } } one {is one {VAR_SELECT_1, select, apple {apple} pear {pear} } } other {are <x id="INTERPOLATION" equiv-text="{{counter}}"/> {VAR_SELECT_2, select, apple {apples} pear {pears} } } }</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/app.component.html</context>
-          <context context-type="linenumber">31</context>
+          <context context-type="linenumber">47</context>
         </context-group>
         <target state="needs-translation">{VAR_PLURAL, plural, =0 {are no {VAR_SELECT, select, apple {apples} pear {pears} } } one {is one {VAR_SELECT_1, select, apple {apple} pear {pear} } } other {are <x id="INTERPOLATION" equiv-text="{{counter}}"/> {VAR_SELECT_2, select, apple {apples} pear {pears} } } }</target>
       </trans-unit>
