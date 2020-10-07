@@ -1,24 +1,25 @@
 import { Component } from '@angular/core';
 
-enum Fruit { apple='apple', pear='pear' };
+enum Fruit {
+  apple = 'apple',
+  pear = 'pear',
+}
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html'
+  templateUrl: './app.component.html',
 })
 export class AppComponent {
-  name = "John Doe";
-
+  name = 'John Doe';
+  today: number = Date.now();
   counter = 1;
-  fruit:Fruit = Fruit.apple;
+  fruit: Fruit = Fruit.apple;
 
-  public changeCounter(change:number)
-  {
-      this.counter = Math.max(0, this.counter+change);
+  public changeCounter(change: number) {
+    this.counter = Math.max(0, this.counter + change);
   }
 
-  public toggleFruit()
-  {
-      this.fruit = this.fruit === Fruit.apple ? Fruit.pear : Fruit.apple;
+  public toggleFruit() {
+    this.fruit = this.fruit === Fruit.apple ? Fruit.pear : Fruit.apple;
   }
 }

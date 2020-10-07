@@ -2,7 +2,9 @@
 
 Localise app
 
-```bashchore:chore
+```bash
+ng xi18n --out-file src/locale/messages.xlf // generate the translation file from source
+
 ng build --prod --localize
 ```
 
